@@ -14,7 +14,7 @@ body {
 main {
     display: flex;
     gap: 2em;
-    background-color: greenyellow;
+    background-color: lightcyan;
     padding: 2em;
     padding-top: 1.5em;
     border-radius: 15px;
@@ -42,7 +42,7 @@ p {
     font-size: 1.3em;
 }
 
-button {
+a {
     position: absolute;
     bottom: 0;
     display: flex;
@@ -57,18 +57,21 @@ button {
     padding: 1em;
     margin-top: 2em;
     margin-left: -.1em;
+    background-color: #6597c9;
+    text-decoration: none;
+    color: black;
 }
 
-button:hover {
+a:hover {
     background-color: grey;
     color: white;
 }
 
-button img {
+a img {
     background-color: white;
 }
 
-button:hover img {
+a:hover img {
     fill: white;
     color: white;
 }
