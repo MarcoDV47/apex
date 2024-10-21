@@ -7,12 +7,14 @@
     <title>Abrigo</title>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/variables.css">
-    <link rel="stylesheet" href="./styles/cadastro.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png" alt="logo">
+        <a href="/">
+            <img src="images/logo.png" alt="logo">
+        </a>
     </header>
     <main>
         <form action="#" class="hidden">
@@ -32,7 +34,7 @@
             <input type="tel" name="telefone">
 
             <label for="cpf">CPF:</label>
-            <input type="number" name="cpf">
+            <input type="text" name="cpf" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}">
 
             <label for="data-chegada">Data de Chegada:</label>
             <input type="date" name="data-chegada">
@@ -87,7 +89,7 @@
         <button id="add">+</button>
     </main>
     <footer>
-        copyright
+        © 2024 Abrigo. Todos os direitos reservados.
     </footer>
     <script src="cadastro.js"></script>
 </body>
